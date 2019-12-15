@@ -1,0 +1,127 @@
+Compound Assignments:
+
+x++ ---> x = x+1
+
+x-- ----> x = x-1
+
+x += y  ----> x = x+y
+
+x -= y 	----> x = x-y
+
+x *= y  ----> x = x*y
+
+x /= y  ----> x = x/y 
+
+
+Comparison Operators:
+
+X == y
+x! = y
+x < y
+x > y
+x <= y
+x >= y
+
+
+Constants: 
+
+1) HIGH
+2) LOW
+3) TRUE
+4) FALSE
+
+
+if/else Statements:
+
+if(condition) {
+	// code here }
+
+else if(condition){
+	// code here }
+
+else {
+	}
+
+
+EXAMPLE # 1: 
+
+int x = 1;
+int y = 2;
+
+if(x==3){
+	serial.println("x is 3");}
+
+else if(y==5){
+	Serial.println("y is 5");}
+
+else if (x==y){
+	Serial.println("x and y are same");}
+
+else{
+	Serial.println("no condition match");}
+
+
+EXAMPLE # 2:
+
+int p = 10, int q = 8:
+p++;
+Serial.println(p);
+//output is //
+p+=2;
+Serial.println(p);
+//output is 13
+p-=10;
+Serial.println(p);
+//Output is 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

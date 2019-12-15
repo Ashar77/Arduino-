@@ -1,0 +1,16 @@
+pinMode(pinNo,INPUT/OUTPUT); ---> main
+
+digitalWrite(pinNO,HIGH/LOW);
+
+delay(time in milliseconds);
+
+Serial.begin(baurdrate); ---> main
+
+Serial.println("hello");
+
+Serial.print("hello");
+
+analogRead(pinNO);
+
+analogWrite(pinNO~,0-255);  ---> pwm pins
+

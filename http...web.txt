@@ -1,0 +1,109 @@
+HTTP(hyper text transfer protocol)
+
+it is used ro deliver contents for example: images,videos etc
+
+3 important things about HTTP:
+------------------------------
+
+1) HTTP is conectionless 
+
+2) It can deliver any sort of data as long as two computers are able to 
+   read it
+
+3) It is stateless
+------------------------------------------------------------------------
+
+HOW THE WEB WORKS:
+
+(paint file)
+
+------------------------------
+
+Request HTTP Message:
+
+Method path to file HTTP Version
+
+Name 1: value 1 
+
+Name 2: value 2 
+
+Name 3: value 3 
+-----------------------------
+Response Http Message:
+
+HTTP/VERSION status code
+
+Name 1 : value 1
+Name 2 : value 2
+Name 3 : value 3
+
+E.g File requested 
+
+-----------------------------
+Example
+
+Get product.html HTTP/1.0
+
+HOST: www.website.com
+
+Accept-language:en-us
+
+Accept:text/html
+-----------------------------
+Example
+
+HTTP/1.0 200:ok
+
+Host:www.website.com
+
+Accept-language:en-us
+
+Accept:text/html
+
+product.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

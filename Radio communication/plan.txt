@@ -1,0 +1,6 @@
+amplitude shift keying (ASK)
+
+-method of modulating the carrier wave
+-similar to analog Amplitude Modulation (AM Radio)
+-Also called Binary Amplitude Shift keying
+-like on/off Switch

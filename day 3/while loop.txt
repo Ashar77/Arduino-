@@ -1,0 +1,23 @@
+While loop 
+
+while (condition) {
+
+// code here
+
+}
+
+EXAMPLE # 1 
+
+int p = 0;
+while (p<3) {
+Serial.println(p);
+p++;
+
+}
+
+
+EXAMPLE # 2 :
+
+String value = "";
+int p = 0;
+while (p<3) {

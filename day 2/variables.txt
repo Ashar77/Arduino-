@@ -1,0 +1,15 @@
+VARIABLES:
+
+syntax:
+
+data type  variable-name  variable value;
+
+int a = 1 ;
+
+float b = 3.14;
+
+char key = 'K';
+
+String name = "HAMZA";
+
+char name[]  = "HAMZA";

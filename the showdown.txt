@@ -1,0 +1,81 @@
+#include<DHT.h>
+#include<ESP8266WiFi.h>
+#include<ThingSpeak.h>
+#define DHTPIN D5
+#define DHTTYPE DHT11
+
+DHT dht(DHTPIN,DHTTYPE);
+
+char ssid[]="Hamza";
+
+char password[] = "hamza1997";
+
+WiFiClient client;
+
+unsigned long myChannelNumber=174314;
+
+char myWriteAPIKey = "123456789";
+
+unsigned int temp,humidity;
+
+void setup(){
+
+Serial.begin(115200);
+dht.begin();
+delay(10);
+Serial.println();
+Serial.println(ssid);
+WiFi.begin(ssid,password);
+
+
+while(WiFi.status()=WL_CONNECTED)
+
+{
+delay(500);
+Serial.print();
+}
+
+Serial.println(WiFi.localIP());
+Thingspeak.begin(client);}
+
+void loop(){
+
+boolean data_state = false;
+temperature = dht.readTemperature();
+humidity = dht.readhumidity();
+if(data_state)
+
+{ThingSpeak.WriteField(myChannelNumber,1,temperature,ingWriteAPIKey);
+data_state = False;}
+
+else{ThingSpeak.writeField(myChannelNumber,2,humidity,myWriteAPIKey);
+data_state=true;}
+delay = (3000);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
