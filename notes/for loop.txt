@@ -1,0 +1,19 @@
+				"FOR LOOP"
+
+for(initialization Statement;test Expression,update Satement){
+
+//code here
+
+}
+
+Example:
+
+for(int x = 1;x<=5;x++){
+
+  Serial.println(x);
+  }
+
+for (int y=5; y>=0;y--){
+
+  Serial.println(y); 
+  }
